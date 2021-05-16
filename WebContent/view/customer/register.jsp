@@ -130,7 +130,7 @@
 );
   
  	var pathname = window.location.pathname;
- 	if(pathname == "/SE2-Ecommerce_WebProject/register"){
+ 	if(pathname == "/register"){
  		document.querySelector('.cont').classList.add('s-signup');
  	}
  	

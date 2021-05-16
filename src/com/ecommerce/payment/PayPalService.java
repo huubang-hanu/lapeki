@@ -85,8 +85,8 @@ public class PayPalService {
 	 */
 	private RedirectUrls getRedirectUrls() {
 		RedirectUrls redirectUrls = new RedirectUrls();
-		redirectUrls.setCancelUrl("http://localhost:8080/SE2-Ecommerce_WebProject/");
-		redirectUrls.setReturnUrl("http://localhost:8080/SE2-Ecommerce_WebProject/customer/review_payment");
+		redirectUrls.setCancelUrl("https://lapeki-ecommerce.herokuapp.com/SE2-Ecommerce_WebProject/");
+		redirectUrls.setReturnUrl("https://lapeki-ecommerce.herokuapp.com/SE2-Ecommerce_WebProject/customer/review_payment");
 		return redirectUrls;
 
 	}
